@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/claseHeroku/static/css/main.9ec87bf6.css",
+    "main.js": "/claseHeroku/static/js/main.4f8fb505.js",
+    "index.html": "/claseHeroku/index.html",
+    "main.9ec87bf6.css.map": "/claseHeroku/static/css/main.9ec87bf6.css.map",
+    "main.4f8fb505.js.map": "/claseHeroku/static/js/main.4f8fb505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ec87bf6.css",
+    "static/js/main.4f8fb505.js"
+  ]
+}
