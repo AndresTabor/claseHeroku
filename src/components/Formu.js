@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { uploadImage } from '../helpers/uploadImage';
 import { endPoint } from '../helpers/Url';
+import { ListContainer } from '../styles/Styles';
 
 export default class Formu extends Component {
 
@@ -59,7 +60,7 @@ export default class Formu extends Component {
     }
   render() {
 
-    return <>
+    return <ListContainer className='px-5 py-5 mt-5'>
         <h1>Registre su Vehiculo</h1>
             <Form onSubmit={this.handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -106,6 +107,6 @@ export default class Formu extends Component {
                 Enviar registro
             </Button>
             </Form>
-    </>;
+    </ListContainer>;
   }
 }

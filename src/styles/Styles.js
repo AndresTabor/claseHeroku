@@ -12,3 +12,9 @@ export const ListContainer = styled.div`
     border-radius : 30px;
     background-color: #ffff;
 `
+
+export const FormContainer = styled.div`
+
+    
+
+`
